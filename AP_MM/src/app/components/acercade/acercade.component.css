@@ -1,0 +1,57 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: rgb(212, 215, 221);
+    text-align:left;
+}
+
+/*estilo foto de perfil*/
+/*faltaría agregar un media mas para que sea responsive cuando sea de menos de 576px*/
+@media (min-width:576px) {
+    #fotoperfil {
+        position: absolute;
+        width: 12%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 650px;
+        
+    }
+}
+
+@media (max-width:575px) {
+    #fotoperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 32%;
+        top: 600px;
+       
+    }
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+    font-family: Helvetica, sans-serif;
+    font-size: x-large;
+}
+ 
+/*etiqueta subtitulo*/
+#subtitulo{
+    font-family: Helvetica, sans-serif;
+    color: rgb(54, 52, 52);
+     }
+
+/*etiqueta acercademi*/
+#acercademi{
+    font-family: Helvetica, sans-serif;
+    }
+
+/*etiqueta detalle*/
+#detalle{
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    }
